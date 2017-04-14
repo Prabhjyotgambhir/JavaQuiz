@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.javaquiz.MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:text="@string/app_name"
+        style="@style/headings"
+        android:id="@+id/textView" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        style="@style/Questionslayout"
+        >
+
+    <TextView
+        style="@style/questions"
+        android:text=" Q1: Which is a reserved word in the Java programming language?"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Checkbox">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Method"
+        style="@style/Eachcheckbox"
+        />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Native"
+            style="@style/Eachcheckbox"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reference"
+            style="@style/Eachcheckbox"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Array"
+            style="@style/Eachcheckbox"/>
+        </LinearLayout>
+    <TextView
+        style="@style/questions"
+        android:text=" Q2: What is the numerical range of a char?"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Checkbox">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-128 to 127"
+            style="@style/Eachcheckbox"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 to 32767"
+            style="@style/Eachcheckbox"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 to 65535"
+            style="@style/Eachcheckbox"/>
+
+    </LinearLayout>
+    <TextView
+        style="@style/questions"
+        android:text=" Q3: Which is a valid keyword in java?"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Checkbox">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="interface"
+            style="@style/Eachcheckbox"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="string"
+            style="@style/Eachcheckbox"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Float"
+            style="@style/Eachcheckbox"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="unsigned"
+            style="@style/Eachcheckbox"/>
+    </LinearLayout>
+    <TextView
+        style="@style/questions"
+        android:text=" Q4: 	What is the name of the method used to start thread execution?"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Checkbox">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="init();"
+            style="@style/Eachcheckbox"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start();"
+            style="@style/Eachcheckbox"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="run();"
+            style="@style/Eachcheckbox"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="resume();"
+            style="@style/Eachcheckbox"/>
+    </LinearLayout>
+    <TextView
+        style="@style/questions"
+        android:text=" Q5: Which of the following will directly stop the execution of a Thread?"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Checkbox"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wait()"
+            style="@style/Eachcheckbox"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="notify()"
+            style="@style/Eachcheckbox"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="notifyall()"
+            style="@style/Eachcheckbox"/>
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
